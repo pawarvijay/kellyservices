@@ -1,0 +1,23 @@
+@import "../../variables";
+
+.account {
+  padding-top: 48px;
+
+  .alreayAccount {
+    margin-bottom: 32px;
+  }
+
+  .firstnameWrapper,
+  .lastnameWrapper {
+    width: 49%;
+    float: left;
+  }
+
+  .firstnameWrapper {
+    margin-right: 2%;
+  }
+
+  .footer {
+    position: relative;
+  }
+}

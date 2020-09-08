@@ -1,0 +1,33 @@
+@import "../../../variables";
+.textField {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    font-size: 16px;
+    height: 38px;
+    background: #ffffff;
+    color: $textLabelColour;
+    width: 100%;
+    margin-top: 8px;
+    display: inline-block;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+  }
+
+  .error {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    background: #e6e0e0;
+  }
+
+  .labelText {
+    color: $textLabelColour;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    display: inline-block;
+  }
+}

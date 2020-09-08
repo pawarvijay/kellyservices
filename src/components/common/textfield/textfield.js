@@ -8,11 +8,10 @@ const Textfield = ({ label, ...props }) => {
     return (
         <> <div className='textField'>
             {console.log(field)}
-            <div className="labelText"> { field.value ? label : null} </div>
+            <div className="labelText"> { label } </div>
             <input
                 {...field}
                 {...props}
-                placeholder = {label}
             />
             {meta.touched && meta.error ? (
                 <div className='error'>{meta.error}</div>

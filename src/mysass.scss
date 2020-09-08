@@ -2,7 +2,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height:100%
 }
 
 a {
@@ -23,14 +22,10 @@ textarea:focus, input:focus, button:focus{
 
 .container {
   padding: 0px 30px 0px 30px;
-  min-height:100%;
-  margin-bottom: -40px; /* Put negative height of the footer here */
-  padding-bottom: 40px; /* Put height of the footer here. Needed for higher than screen height pages */
 }
 
 .commonLabels{
   font-size: 14px;
-  line-height: 20px;
   color: #808080;
 }
 
